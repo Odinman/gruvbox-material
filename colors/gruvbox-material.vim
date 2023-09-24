@@ -579,7 +579,8 @@ highlight! link TSEnvironment Macro
 highlight! link TSEnvironmentName Type
 highlight! link TSError Error
 highlight! link TSException Red
-highlight! link TSField Blue
+"highlight! link TSField Blue
+highlight! link TSField DevIconConfiguration
 highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin GreenBold
 highlight! link TSFuncMacro GreenBold
@@ -599,7 +600,8 @@ highlight! link TSNamespace YellowItalic
 highlight! link TSNone Fg
 highlight! link TSNumber Purple
 highlight! link TSOperator Orange
-highlight! link TSParameter Fg
+"highlight! link TSParameter Fg
+highlight! link TSParameter Blue
 highlight! link TSParameterReference Fg
 highlight! link TSPreProc PreProc
 highlight! link TSProperty Blue
@@ -627,7 +629,7 @@ highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSTypeDefinition YellowItalic
 highlight! link TSTypeQualifier Orange
 highlight! link TSURI markdownUrl
-highlight! link TSVariable Fg
+highlight! link TSVariable Blue
 highlight! link TSVariableBuiltin PurpleItalic
 if has('nvim-0.8.0')
   highlight! link @annotation TSAnnotation
